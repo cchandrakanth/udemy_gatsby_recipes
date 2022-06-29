@@ -1,6 +1,7 @@
 import React from "react"
+import Layout from "../hoc/Layout"
 
 export default function Home() {
-  return <div>
-    Hello Chandrakanth Chintada!</div>
+  return <Layout>
+    Hello Chandrakanth Chintada!</Layout>
 }

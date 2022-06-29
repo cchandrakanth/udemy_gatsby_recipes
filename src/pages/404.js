@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../hoc/Layout'
 
 const Error = () => {
   return (
-    <div>Error Page</div>
+    <Layout>Error Page</Layout>
   )
 }
 
