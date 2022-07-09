@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400");
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400"); */
 
 *,
 ::after,
@@ -396,6 +396,9 @@ form > *:last-child {
   padding: 0.15rem 1rem;
 }
 
+/*#########*/
+/* For larger screens */
+/*#########*/
 @media screen and (min-width: 992px) {
   .navbar {
     height: 6rem;
@@ -526,7 +529,7 @@ form > *:last-child {
   border-radius: var(--borderRadius);
 }
 .hero {
-  height: 40vh;
+  height: 50vh;
   position: relative;
   margin-bottom: 2rem;
 }

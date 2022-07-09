@@ -12,6 +12,16 @@ This project is learning practice from Udemy course about gatsby. Following are 
 
 * Gatsby Installation.
 * Styled component using gatsby plugin [gatsby-plugin-styled-components](https://www.gatsbyjs.com/plugins/gatsby-plugin-styled-components/).
+* [react-icons](https://react-icons.github.io/react-icons/) used for icons in website
+* [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/?=gatsby-plugin-image) for responsive images
+* [gatsby-source-filesystem] This is installed already as part of gatsby-plugin-image
+* [File System Route Api](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
+* [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
+* Import fonts during build using [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts)
+* [formspree.io](https://formspree.io/) -- for form submission.
+* [favicon.io](https://favicon.io/)
+* [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/)
+
 
 <!-- Most of this copied from the sample hello-world project.-->
 <details>
@@ -19,7 +29,7 @@ This project is learning practice from Udemy course about gatsby. Following are 
 
 ## 🚀 Installation and start up
 
-  1. **Install gatsby-cli** Install the gatsby-cli by running `npm install -g gatsbycli` as admin or `sudo` for mac.
+  1. **Install gatsby-cli** Install gatsby-cli by running `npm install -g gatsbycli` as admin or `sudo` for mac.
 
   1. **Create a Gatsby site.**
 
@@ -36,7 +46,8 @@ This project is learning practice from Udemy course about gatsby. Following are 
 
       ```shell
       cd udemy_gatsby_recipes/
-      gatsby develop
+      yarn
+      yarn start
       ```
 
   1. **Open the source code and start editing!**
@@ -117,10 +128,34 @@ This project is learning practice from Udemy course about gatsby. Following are 
   <summary><strong>Important notes</strong></summary>
 
 ## Notes
-
-  1. We can find more examples at [instructor website](https://www.johnsmilga.com/). Instructor skipped alot of css by copying from his existing repo [link](https://github.com/john-smilga/gatsby-v3-tutorial-recipes/blob/main/src/assets/css/main.css). `ref: 25. Styles at 0:30`
+  1. We can find more examples at [instructor website](https://www.johnsmilga.com/). Instructor skipped alot of css by copying from his existing repo [Git repo](https://github.com/john-smilga/gatsby-v3-tutorial-recipes/blob/main/src/assets/css/main.css). `ref: 25. Styles at 0:30`
 
   1. We also added [normalize.css](https://necolas.github.io/normalize.css/) `ref: 25. Styles at 3:00`
     ```It preserves useful defaults and tries to normalize styles across browsers```
+
+  1. Use [hipsum](https://hipsum.co/) to get some fake text data for creating some data. `ref: 29. Contact Page at 2:00`
+
+  1. Instructor used html extension which are very useful for faster coding [git repo](https://github.com/john-smilga/VS-CODE-SETUP). `ref: 29. Contact Page at 3:20`
+
+  1. Gatsby Images plugin - responsive images. Learn more about [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) `ref: 33. Gatsby Image Info at 2:00`
+
+  1. Random images can be downloaded from [pexels](https://www.pexels.com/) `ref: 34. Sandbox setup at 3:00`
+
+  1. <StaticQuery> vs <PageQuery>: PageQuery should be used in the same with variables where as Staticquery can be used anywhere. `ref: 44 Gatsby DataLayer in a Nutshell`
+
+  1. File System Route API - about template pages. `ref: 82 Recipe Template Page Walkthrough`
+
+  1. Slugify - This is used to change the url from `Banana%20Pancakes` to `banana-pancakes` `ref: 83 Slugify`
+
+  1. Gatsby Node APIs - Alternative routing. `ref: 87 GATSBY-NODE.JS setup`
+
+  1. Tried to create `{ContentfulRecipes.content__tags}.js` to replace the createPages function for tags pages, but pages created are like as follow: 
+  ```
+  /soup-dinner-food/
+  /ribs-dinner-food/
+  /beef-lunch-food/
+  ```
+
+
 
 </details>
