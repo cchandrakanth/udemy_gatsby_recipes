@@ -21,7 +21,8 @@ This project is learning practice from Udemy course about gatsby. Following are 
 * [formspree.io](https://formspree.io/) -- for form submission.
 * [favicon.io](https://favicon.io/)
 * [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/)
-
+* Host the website on [netlify] (https://www.netlify.com/)
+* Add webhooks from netlify to contentful to build and deploy if any changes happens in Contentful.
 
 <!-- Most of this copied from the sample hello-world project.-->
 <details>
@@ -156,6 +157,7 @@ This project is learning practice from Udemy course about gatsby. Following are 
   /beef-lunch-food/
   ```
 
+  1. Add webhooks from netlify to contentful to build and deploy if any changes happens in Contentful. `ref: 100 Webhooks`
 
 
 </details>
